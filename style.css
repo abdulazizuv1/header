@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background: url("./imgs/bg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1550px 800px;
+    background-position-y: 80px;
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+.list a{
+    text-decoration: none;
+    color: #626364;
+}
+.phone_number{
+    color: #626364;
+}
+.phone_number span{
+    font-weight: bold;
+}
+header{
+    position: relative;
+    padding-top: 15px;
+}
+hr{
+    background-color: #626364;
+    opacity: 20%;
+    margin-top: 10px;
+    height: 2px;
+}
+.header_searchbar{
+    padding-top: 14px;
+    display: flex;
+    gap: 43px;
+    position: relative;
+}
+.leftbtn{
+    background-color: #2FB946;
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    padding-left: 28px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.leftbtn img{
+    width: 24px;
+    height: 24px;
+}
+.leftbtn p{
+    padding-top: 2px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.centerbar{
+    margin-top: 9px;
+    position: relative;
+    right: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.centerbar input{
+    background-color: white;
+    width: 500px;
+    height: 38px;
+    border: 2px solid #D8DCE2;
+    border-radius: 5px;
+    text-align: left;
+}
+input[placeholder]{
+    padding-left: 30px;
+    color: #626364;
+}
+.centerbtn{
+    background-color: #2FB946;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 40px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    right: 50px;
+}
+.centerbtn p{
+    padding-top: 2px;
+    padding-left: 2px;
+    font-weight: bold;
+}
+.rightbtns{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    margin-top: 10px;
+    right: 3px;
+}
+.firstbtn{
+    background-color: #fff;
+    border: 2px solid #D8DCE2;
+    text-align: center;
+    width: 40px;
+    height: 38px;
+    padding: 8px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.secondbtn{
+    background-color: #fff;
+    border: 2px solid #D8DCE2;
+    text-align: center;
+    width: 40px;
+    height: 38px;
+    padding: 8px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.thirdbtn{
+    background-color: #fff;
+    border: 2px solid #D8DCE2;
+    text-align: center;
+    width: 125px;
+    height: 38px;
+    padding: 8px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.thirdbtn img{
+    width: 24px;
+    height: 24px;
+}
+.thirdbtn p{
+    padding-left: 5px;
+    font-weight: bold;
+    color: #626364;
+}
+.header_info{
+    padding-bottom: 30vh;
+}
+.info{
+    color: white;
+    margin-top: 180px;
+}
+.info h1{
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 13.3px;
+}
